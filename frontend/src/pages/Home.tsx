@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from '../components/Sidebar';
 import { Dialog, DialogContent, Divider, Snackbar } from "@mui/material"
-import type { gps_pos } from '../types/hardwareTypes';
+import type { gps_pos } from '../types/backendTypes';
 import type { targetSat } from '../types/targetSat';
 import LocationModal from '../components/LocationModal';
 import {

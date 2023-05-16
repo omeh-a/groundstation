@@ -2,7 +2,7 @@
 // Matt Rossouw (omeh-a)
 // 05/2022
 
-import { gps_pos, backend_status } from "../types/hardwareTypes";
+import { gps_pos, backend_status } from "../types/backendTypes";
 import { n2yo_get_radio_passes, n2yo_get_visual_passes, n2yo_positions, n2yo_whats_up } from "../types/n2yotypes";
 
 // Parameters set by frontend to communicate with backend

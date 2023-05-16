@@ -8,7 +8,7 @@ import ToggleButton from '@mui/material/ToggleButton';
 import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import BackendMonitor from './SystemInfo/BackendMonitor/BackendMonitor';
 import SysLocation from './SystemInfo/SysLocation';
-import { gps_pos } from '../../types/hardwareTypes';
+import { gps_pos } from '../../types/backendTypes';
 import Tracking from './Tracking/Tracking';
 
 interface MonitorSubProps {

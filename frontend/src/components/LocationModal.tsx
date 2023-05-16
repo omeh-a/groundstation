@@ -7,7 +7,7 @@
 // implementing acquisition asynchronously.
 
 import { Button, TextField } from '@mui/material';
-import { gps_pos } from '../types/hardwareTypes';
+import { gps_pos } from '../types/backendTypes';
 import React from 'react';
 import styled from '@emotion/styled';
 import Stack from "@mui/material/Stack";

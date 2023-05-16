@@ -6,7 +6,7 @@
 import React, { useEffect } from 'react';
 import { Stack, Typography } from "@mui/material"
 import { getStatus } from '../../../../logic/backend_req'
-import type { backend_status } from '../../../../types/hardwareTypes';
+import type { backend_status } from '../../../../types/backendTypes';
 
 interface Props {
     connected: boolean,

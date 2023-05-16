@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { Button, Card, CardActions, CardContent, Grid, Typography } from "@mui/material"
-import { gps_pos } from '../../../types/hardwareTypes';
+import { gps_pos } from '../../../types/backendTypes';
 import Clock from '../../Common/Clock';
 interface SysLocationProps {
     location: gps_pos;

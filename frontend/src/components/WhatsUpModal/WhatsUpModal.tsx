@@ -12,7 +12,7 @@ import styled from '@emotion/styled';
 import SatSelector from './SatSelector';
 import { categories } from './Category'
 import { n2yo_above } from '../../types/n2yotypes';
-import { gps_pos } from '../../types/hardwareTypes';
+import { gps_pos } from '../../types/backendTypes';
 import type { targetSat } from '../../types/targetSat';
 import { getPositions, getWhatsUp } from '../../logic/backend_req';
 
